@@ -1,0 +1,72 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 12px;
+    color: #000000;
+}
+
+.chatTitle {
+    background-color: #237bc0;
+    margin-bottom: 1px;
+    color: snow;
+}
+
+.chatTitle span {
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.chatBoard {
+    background-image: url('/img/messenger.jpg');
+    height: 500px;
+}
+
+.chatBoard .alert {
+    margin: 20px;
+    padding: 5px 0;
+    margin-top: 5px;
+    min-width: 250px;
+    width: auto;
+}
+
+.chatBoard .alert:nth-child(odd) {
+    border-color: #fcf8e3;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    float: left;
+}
+
+.chatBoard .alert:nth-child(even) {
+    border-color: #e1fdc7;
+    color: #000000;
+    background-color: #e1fdc7;
+    float: right;
+}
+
+.chatBoard .message {
+    min-width: 250px;
+    width: auto;
+    margin-left: 5px;
+}
+
+.chatBoard .message-arrow {
+    border-width: 5px 5px 0;
+    border-top-color: beige;
+}
+
+.message-arrow {
+    margin-top: 23px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.chatBoard .alert:nth-child(odd) .message-arrow {
+    left: 10%;
+}
+
+.chatBoard .alert:nth-child(even) .message-arrow {
+    left: 90%;
+}

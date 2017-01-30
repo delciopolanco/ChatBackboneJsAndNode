@@ -1,0 +1,31 @@
+{
+  "name": "chatbackbonejsandnodejs",
+  "version": "1.0.0",
+  "description": "chat dealing with socket io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cha"
+  ],
+  "author": "delcio polanco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.2",
+    "gulp-wrap": "^0.13.0",
+    "handlebars": "^4.0.5",
+    "socket.io": "^1.7.2"
+  }
+}

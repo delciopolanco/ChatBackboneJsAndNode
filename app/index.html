@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css css/custom.css -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="./public/css/style.css" rel="stylesheet">
+    <!-- endbuild -->
+</head>
+
+<body class="container">
+    <div id="chatRoom">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="chatTitle">
+                    <img src="img/default.jpg" alt="" class="img-circle" width="50px">
+                    <span>From: Me</span>
+                    <span>To: Server</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="chatBoard" style="height: 200px;">
+                    <!--<div class="alert alert-warning alert-dismissible">
+                        <div class="message-arrow"></div>
+                        <div class="message">Hey</div>
+                    </div>
+                    <div class="alert alert-warning alert-dismissible">
+                        <div class="message-arrow"></div>
+                        <div class="message">Muy bien y a tí :)</div>
+                    </div>
+                    <div class="alert alert-warning alert-dismissible">
+                        <div class="message-arrow"></div>
+                        <div class="message">Por ahora bien, que haces?</div>
+                    </div>
+                    <div class="alert alert-warning alert-dismissible">
+                        <div class="message-arrow"></div>
+                        <div class="message">Nada aqui, aburrida.</div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="message" placeholder="what are you thinking..">
+                        <span class="input-group-btn">
+                    <button id="send" class="btn btn-success" type="submit">Send</button>
+                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- build:js scripts/custom.js -->
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../bower_components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="../bower_components/backbone/backbone.js"></script>
+    <script type="text/javascript" src="../bower_components/backbone.validation/dist/backbone-validation.js"></script>
+    <script type="text/javascript" src="../bower_components/backbone.stickit/backbone.stickit.js"></script>
+    <script type="text/javascript" src="../bower_components/handlebars/handlebars.js"></script>
+    <script type="text/javascript" src="../bower_components/socket.io-client/dist/socket.io.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="./modules/main.js"></script>
+    <script type="text/javascript" src="./modules/models.js"></script>
+    <script type="text/javascript" src="./modules/views.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
